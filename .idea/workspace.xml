@@ -2,18 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47dfb462-b2d7-46ca-b369-f3e2ba3b5cc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react-weather/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/WeatherOne/WeatherOne.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/WeatherOne/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/WrapperWeather/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/SearchInput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/service/lang.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/store/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-weather/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/js-tokens/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loose-envify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/build-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/jsx-dev-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/jsx-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/assecc icons/icons/searchmagnifierinterfacesymbol_79894.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/SearchButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/SearchButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/WeatherOne/WeatherOne.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/SearchInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/SearchWrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/SearchWrapper.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-weather/src/components/SingleWeather/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +65,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,36 +104,46 @@
       <list>
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearcButton.js" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SEarchWrapper.jsx" />
-        <option value="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.jsx" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearcButton.jsx" />
         <option value="$PROJECT_DIR$/react-weather/.env" />
         <option value="$PROJECT_DIR$/react-weather/src/index.js" />
         <option value="$PROJECT_DIR$/react-weather/src/index.css" />
-        <option value="$PROJECT_DIR$/react-weather/src/App.js" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/index.js" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.module.css" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.jsx" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/index.js" />
-        <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.jsx" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/index.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.module.css" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/index.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/public/index.html" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/WeatherOne/index.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/form/WeatherOne/WeatherOne.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/reduser.js" />
         <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/App.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/initialStore.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/store.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/service/lang.service.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.css" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/WrapperWeather/index.js" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/SearchButton.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/SearchWrapper.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/SearchInput.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.jsx" />
+        <option value="$PROJECT_DIR$/react-weather/src/store/reducers.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="36" />
-    <option name="width" value="715" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="723" />
+    <option name="y" value="12" />
+    <option name="width" value="625" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,45 +163,6 @@
               <item name="react_weather" type="462c0819:PsiDirectoryNode" />
               <item name="react-weather" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="react-weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="react-weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="react-weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="react-weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchWrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="react-weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleWeather" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -138,6 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -148,11 +182,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\работа\обучение\react_weather\react-weather\src\components" />
+      <recent name="D:\работа\обучение\react_weather\react-weather\src\view" />
       <recent name="D:\работа\обучение\react_weather\react-weather\src\components\form" />
+      <recent name="D:\работа\обучение\react_weather\react-weather" />
+      <recent name="D:\работа\обучение\react_weather\react-weather\src\assecc icons\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,21 +218,24 @@
       <updated>1635178274809</updated>
       <workItem from="1635178281813" duration="342000" />
       <workItem from="1635178822160" duration="5068000" />
-      <workItem from="1635319721466" duration="2396000" />
+      <workItem from="1635319721466" duration="18233000" />
+      <workItem from="1635409721294" duration="2035000" />
+      <workItem from="1635413484439" duration="2220000" />
+      <workItem from="1635419290681" duration="1137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7806000" />
+    <option name="totallyTimeSpent" value="29035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="36" width="715" height="698" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34268832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25223213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -202,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Floobits" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34513274" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31751227" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -213,21 +255,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SingleWeather/SingleWeather.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -246,71 +279,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchButton/index.js">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.module.css">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/SearchButton.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchInput/index.js">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchButton/SearchButton.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.css">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/SearchInput.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchInput/SearchInput.jsx">
+    <entry file="file://$PROJECT_DIR$/react-weather/node_modules/@mui/material/StyledEngineProvider/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/index.js">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WeatherOne/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WeatherOne/WeatherOne.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/SingleWeather/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/src/components/form/SearchWrapper/SearchWrapper.jsx">
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WeatherOne/WeatherOne.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WrapperWeather/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/SearchWrapper.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/node_modules/react-redux/es/components/Provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchButton/SearchButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchInput/SearchInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/forms/SearchWrapper/SearchWrapper.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/SingleWeather/SingleWeather.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/store/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/store/initialState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/service/lang.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/src/components/WrapperWeather/WrapperWeather.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>

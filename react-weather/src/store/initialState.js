@@ -1,6 +1,7 @@
 const initialState = {
     single_weather: null,
-    location: 'ru'
+    location: 'ru',
+    city: ''
 };
 
 export  default initialState

@@ -1,39 +1,49 @@
 import { useEffect, useState } from "react"
-import axios from 'axios'
 import SearchInput from "../SearchInput"
+import Navigation from "../Navigation/Navigation"
 import SearchButton from "../SearchButton/SearchButton"
 import classes from './SearchWrapper.module.css'
+import request from '../../../service/request.service'
+import { useSelector } from 'react-redux'
 import store from '../../../store/store'
 
 
+
+
 function SearchWrapper () {
-    const [city, setCity] = useState('');
+    const city = useSelector((state) => state.city);
 
     useEffect(()=> {
         let urlParams = new URLSearchParams(window.location.search);
         let queryCity = urlParams.get('city');
+        console.log(urlParams.toString());
 
         if(queryCity){
             setCityInput(queryCity);
-            getWeatherCity(queryCity)
+            request.getWeatherFromCity(queryCity)
         }
     }, []);
 
     function setCityInput(val) {
-        setCity(val)
+        store.dispatch({type: 'SET_CITY', value: val})
     }
 
-    function getWeatherCity(searchCity) {
-        const requestCity = searchCity ? searchCity : city;
+    function getLocationUser() {
+        if(navigator) {
+            navigator.geolocation.getCurrentPosition((position) => {
 
-        axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_API_KEY}`)
-            .then((data) => {
-             store.dispatch({type: 'SET_SINGLE_WEATHER', value: data.data})
-            })
-            .catch((err) =>{
-                console.log(err)
-            })
+                const coords = {
+                    lat: position.coords.latitude,
+                    lon: position.coords.longitude
+                };
+
+                request.getWeatherFromCoords(coords)
+            });
+        }else {
+            console.log('Error navigator');
+        }
     }
+
 
     return (
         <div className={classes.SearchWrapper}>
@@ -42,9 +52,11 @@ function SearchWrapper () {
                 changeCity={ setCityInput }
             />
 
-            <SearchButton
-                onSubmit={ getWeatherCity }
-            />
+            <Navigation getLocation={ getLocationUser }/>
+
+                <SearchButton
+                    onSubmit={()=> { request.getWeatherFromCity(city) } }
+                />
         </div>
     )
 }

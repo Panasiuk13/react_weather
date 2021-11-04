@@ -1,7 +1,8 @@
 const initialState = {
     single_weather: null,
     location: 'ru',
-    city: ''
+    city: '',
+    deg: 'F'
 };
 
 export  default initialState

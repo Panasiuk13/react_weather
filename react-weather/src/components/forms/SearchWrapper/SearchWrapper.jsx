@@ -4,6 +4,7 @@ import Navigation from "../Navigation/Navigation"
 import SearchButton from "../SearchButton/SearchButton"
 import classes from './SearchWrapper.module.css'
 import request from '../../../service/request.service'
+import storage from '../../../service/storage.service'
 import { useSelector } from 'react-redux'
 import store from '../../../store/store'
 
@@ -16,11 +17,18 @@ function SearchWrapper () {
     useEffect(()=> {
         let urlParams = new URLSearchParams(window.location.search);
         let queryCity = urlParams.get('city');
-        console.log(urlParams.toString());
+
 
         if(queryCity){
             setCityInput(queryCity);
+
+            storage.setCityStorage(queryCity);
             request.getWeatherFromCity(queryCity)
+        }else{
+            const cityStorage = storage.getCityStorage();
+
+            setCityInput(cityStorage);
+            request.getWeatherFromCity(cityStorage)
         }
     }, []);
 
@@ -41,6 +49,7 @@ function SearchWrapper () {
             });
         }else {
             console.log('Error navigator');
+
         }
     }
 
